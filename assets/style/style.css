@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3E5D8;
+}
+
+.container {
+    margin-left: 23%;
+    width: 53%;
+    border-radius: 20px;
+    align-items: center;
+    display: grid;
+    height: auto;
+    margin-top: 5%;
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-bottom: 7%;
+    padding-right: 5%;
+    margin-bottom: 4%;
+    background-color: #fff;
+}
+
+.container-text{
+    margin-left: 50px;
+}
+
+.main-image{
+    display: flex;
+    justify-content: center;
+}
+
+
+img{
+    border-radius: 20px;
+    width: 90%;
+    height: auto;
+}
+
+h1{
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-size: 72px;
+    margin-top: 15px;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+
+.text-box {
+    justify-content: end;
+    width: 100%;
+    display: grid;
+}
+
+p {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 18px;
+}
+
+.prepare-box {
+    background-color: #ffe4f5;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+li{
+    font-size: 20px;    
+    margin-left: 20px;
+}
+
+h3 {
+    color: #8A584A;
+    font-size: 21px;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal; 
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.header {
+    color: #85345a;
+}
+
+ul {
+    color: #8A584A;
+}
+
+.gr {
+    color: #8A584A;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+hr {
+    color: #6a6a6a;
+    margin-bottom: 20px;
+}
+
+.nutrions-box {
+    margin-top: 30px;
+}
+
+.grid {
+    display: grid;
+    margin-top: -225px;
+    justify-content: end;
+    width: 90%;
+    gap: 15px;
+}
+
+.attribution {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    gap: 16px;
+    justify-content: center;
+    width: 100%;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: #000;
+    margin-top: -18px;
+    font-size: 20px;
+}
+
+.attribution{
+  overflow: hidden;
+  white-space: nowrap;
+  color: #000;
+  animation: 
+    typing 10s forwards infinite;
+  font-size: 1.6rem;
+  width: 0;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}

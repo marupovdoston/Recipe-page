@@ -1,0 +1,35 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .container {
+        margin-left: 0;
+        width: 100%;
+        border-radius: 0px;
+        margin-top: 0%;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 43px;
+    }
+
+    .container-text {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 0;
+    }
+    
+    .attribution a {
+        font-size: 11px;
+    }
+
+    .attribution p {
+        font-size: 11px;
+    }
+}
